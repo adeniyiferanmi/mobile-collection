@@ -49,7 +49,7 @@ const getSingleProduct = async () => {
             
             </div>
             </div>
-           <a href="../html/index.html"> <button class="con">Continue Shopping</button></a>
+           <a href="../index.html"> <button class="con">Continue Shopping</button></a>
             <div>
             <button class="add"  data-id="${productId}" data-name="${product.name}" data-price="${product.price}" data-image="${product.image}">Add to Cart  <span><div class="spinner-border  d-none  load spinner-border-sm" role="status">
            <span class="visually-hidden">Loading...</span>

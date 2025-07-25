@@ -110,7 +110,7 @@ onAuthStateChanged(auth, async (user) => {
         if (!carTdEL) {
           alert("payment not successful")
         } else {
-          window.location.href="../html/index.html"
+          window.location.href="../index.html"
         }
         
       } catch (error) {
