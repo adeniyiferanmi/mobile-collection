@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  background-color: white;
+  /* height: 100vh; */
+}
+body {
+  background-image: url(../multimedia/images/ChatGPT\ Image\ Jun\ 30\,\ 2025\,\ 06_39_50\ PM.png);
+}
+.logo {
+  background-color: #1a2238;
+  text-align: center;
+}
+.logo h1 {
+  font-size: 4rem;
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -10px;
+  color: rgb(42, 77, 155);
+}
+.logo span {
+  font-size: 1rem;
+  letter-spacing: 0;
+  color: #a7c7e7;
+  /* font-family: "Sevillana", cursive; */
+  font-family: "Petit Formal Script", serif;
+}
+.mini-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+.join{
+    text-align: center;
+}
+.join h2{
+    font-size: 2rem;
+    font-family: "Newsreader", serif;
+}
+.join p {
+    font-size: 2rem;
+    font-family: "Tangerine", cursive;
+    font-weight: 400px;
+
+}
+.input label{
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  
+}
+.input select{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: gray;
+}
+.input input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.label label{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.sign{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(42,77,155);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+.footer p{
+ font-size: 1rem;
+ font-family: sans-serif;
+ margin-top: 20px;
+ 
+}
+.footer{
+    text-align: center;
+    padding-top: 20px;
+}
+.footer img{
+    width: 25px;
+    margin-right: 5px;
+}
+.face{
+    background-color: rgb(0,128,255);
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.apple{
+   background-color: black;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin-left: 10px;
+    padding: 5px; 
+}
+.goog{
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(42,77,155);
+}
+#error-message {
+    font-size: 0.7rem;
+    color: red;
+    font-family: sans-serif;
+}
+
+@media (max-width:1200px){
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width:700px){
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width:450px){
+    .container{
+        width: 97%;
+    }
+    .input input{
+        width: 100%;
+    }
+    .input{
+        margin-top: 30px;
+    }
+}

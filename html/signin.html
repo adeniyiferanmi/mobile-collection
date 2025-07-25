@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/signin.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=DM+Serif+Text:ital@0;1&family=Eagle+Lake&family=Felipa&family=Manufacturing+Consent&family=Neonderthaw&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Petit+Formal+Script&family=Sevillana&family=Tangerine:wght@400;700&family=Tektur:wght@400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+    <div class="logo">
+        <h1>Mc <span> MOBILE COLLECTION</span></h1>
+
+    </div>
+    <div id="signup-input">
+        <form class="mini-container" id="form-input">
+            <div class="join">
+                <h2>Create your account</h2>
+                <p>Join us in just a few easy steps!</p>
+            </div>
+            <div class="input">
+                <div>
+                    <label for="">Name</label> <br>
+                    <input type="text" placeholder="Full Name" id="names" required />
+                    <input type="email" placeholder="Email Address" id="email" required />
+                </div>
+                <div>
+                    <label for="">Password</label> <br>
+                    <input type="password" placeholder="********" id="password" required />
+                    <p id="error-message"></p>
+                    <div>
+                        <label for="">Gender</label> <br>
+                        <select name="" id="">
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                        </select>
+                        <p id="error-message"></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="label">
+                <label>
+                    <input type="radio" required />
+                    I agree to the Terms and Conditions
+                </label>
+            </div>
+            <button type="submit" class="sign" id="btn">Sign Up</button>
+        </form>
+        <div class="footer">
+            <p>Already have an account? <a href="./login.html">Login here</a></p>
+            <p>— or sign up with —</p>
+            <div class="social-buttons">
+                <button class="goog"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/120px-Google_Favicon_2025.svg.png"
+                        alt="">Google</button>
+                <button class="face"> <img
+                        src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png"
+                        alt="">Facebook</button>
+                <button class="apple"> <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBpgPczjiOroEWmNfdFsH7GA4Ue-g0W7d9g&s"
+                        alt="">Apple</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/signin.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a2238;
+  height: 90px;
+  position: fixed;
+  z-index: 5;
+}
+.container1 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo h1 {
+  font-size: 4rem;
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -10px;
+  color: rgb(42, 77, 155);
+}
+.logo span {
+  font-size: 1rem;
+  letter-spacing: 0;
+  color: #a7c7e7;
+  /* font-family: "Sevillana", cursive; */
+  font-family: "Petit Formal Script", serif;
+}
+.list {
+  padding-top: 40px;
+}
+.list ul {
+  display: flex;
+  gap: 20px;
+}
+.list li {
+  list-style: none;
+}
+.list a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.list span {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+.list a:hover {
+  color: rgb(42, 77, 155);
+}
+.btnn {
+  display: flex;
+  gap: 20px;
+}
+.span span {
+  top: 30px;
+  color: white;
+  position: relative;
+}
+.zero {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin-top: -37px;
+  right: -15px;
+}
+.btnn button {
+  width: 150px;
+  padding: 15px;
+  background-color: rgb(42, 77, 155);
+  color: white;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.btnn button:hover {
+  background-color: rgb(10, 59, 165);
+}
+.null{
+    height: 90%;
+}
+.section{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.text{
+    padding-top: 150px;
+    /* width: 100%; */
+}
+.text h1{
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 4rem;
+  width: 400px;
+  line-height: 70px;
+  font-weight: bold;
+}
+.text p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    width: 500px;
+    margin-top: 20px;
+    
+}
+.text button{
+    margin-top: 20px;
+    width: 150px;
+    padding: 15px;
+    border: none;
+    background-color: rgb(42, 77, 155);
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.image{
+    background-color: rgb(10, 59, 165);
+    border-radius: 50%;
+    margin-top: 50px;
+    /* width: 100%; */
+}
+.image img{
+  width: 500px;
+}
+.footer {
+  margin-top: 30px;
+  background-color: rgb(26, 34, 56);
+}
+.footer1 {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  padding-top: 30px;
+  color: white;
+  font-family: sans-serif;
+}
+.footer1 h2 {
+  font-weight: bold;
+}
+.footer1 p:hover {
+  color: rgb(42, 77, 155);
+}
+.footer1 p {
+  margin-top: 20px;
+}
+.at {
+  width: 90%;
+  margin: auto;
+}
+.logo p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  font-family: sans-serif;
+}
+
+@media (max-width: 1220px) {
+  .container1 {
+    width: 100%;
+  }
+  .none {
+    display: none;
+  }
+  #section1{
+    width: 98%;
+  }
+}
+@media (max-width: 1100px) {
+    .section{
+        width: 98%;
+        gap: 20px;
+    }
+    .text h1{
+        width: 100%;
+    }
+    .text p{
+        width: 100%;
+    }
+    .image img{
+        width: 400px;
+    }
+}
+
+@media (max-width: 900px) {
+  .list {
+    display: none;
+  }
+  .container1 {
+    width: 90%;
+  }
+  .footer1{
+    grid-template-columns: auto auto auto;
+  }
+  .footer1 h2{
+    margin-top: 20px;
+  }
+  .section{
+    width: 80%;
+    flex-direction: column-reverse;
+  }
+  .image img{
+    width: 100%;
+  }
+  .text h1{
+    width: 100%;
+  }
+  .text p{
+    width: 100%;
+  }
+  .text button{
+    width: 60%;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .logo h1 {
+    font-size: 2.5rem;
+  }
+  .logo {
+    margin-top: 20px;
+  }
+  .logo span {
+    font-size: 1rem;
+  }
+  .btnn button{
+    width: 100px;
+  } 
+  .text{
+    padding-top: 0;
+  }
+  .text h1{
+    margin-top: 0;
+    font-size: 2.5rem;
+    line-height: 40px;
+  }
+}
+
+
+@media(max-width: 450px){
+  .container1{
+    width: 100%;
+  }
+  .btnn button{
+    width: 80px;
+  }
+    .logo h1 {
+    font-size: 2rem;
+  }
+  
+  .logo span {
+    font-size: 0.9rem;
+  }
+  .footer1{
+    grid-template-columns: auto auto;
+  }
+  .section{
+    width: 95%;
+  }
+  .text h1{
+    font-size: 2rem;
+  }
+  
+}
