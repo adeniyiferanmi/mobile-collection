@@ -59,7 +59,7 @@ onAuthStateChanged(auth, async (user) => {
     
 
   } else {
-    window.location.href = "../html/open.html";
+    window.location.href = "../index.html";
   }
 });
 

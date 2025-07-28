@@ -29,7 +29,7 @@ onAuthStateChanged(auth,async (user) => {
         const cartColRef = collection(db, "users", currentuser,"carts")
         getSingleCart(cartColRef)
     } else {
-        Window.location.href="../html/login.html"
+        Window.location.href="../index.html"
     }
 })
 

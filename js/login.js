@@ -22,7 +22,7 @@ const loGin = async () => {
       passwordInput.value
     );
     const user = userCredential.user;
-    window.location.href = "../index.html";
+    window.location.href = "../html/open.html";
     console.log(user);
   } catch (error) {
     console.log(error);

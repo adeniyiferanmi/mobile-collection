@@ -178,7 +178,7 @@ onAuthStateChanged(auth, async (user) => {
 
     historyEl.addEventListener("click", getHistory());
   } else {
-    window.location.href = "../html/open.html";
+    window.location.href = "../index.html";
     cartBadge.style.display = "none";
   }
   console.log(currentuser);

@@ -110,7 +110,7 @@ onAuthStateChanged(auth, async (user) => {
         if (!carTdEL) {
           alert("payment not successful")
         } else {
-          window.location.href="../index.html"
+          window.location.href="../html/open.html"
         }
         
       } catch (error) {
@@ -130,7 +130,7 @@ e.preventDefault()
 paymentEl()
 })
   } else {
-    window.location.href = "../html/open.html";
+    window.location.href = "../index.html";
   }
 });
 const logOut = async () => {
