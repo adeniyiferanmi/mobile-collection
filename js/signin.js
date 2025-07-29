@@ -33,6 +33,8 @@ const signup = async () => {
     } else if (error.code == "auth/password-does-not-meet-requirements"){
       errorMassageEl.textContent =
         "Password must contain a lower case character, Password must contain an upper case character, Password must contain a non-alphanumeric character";
+    } else if(error.code == "auth/network-request-failed"){
+      errorMassageEl.textContent = "Error 404"
     }
     } finally{
       bTn.textContent ="Sign Up"

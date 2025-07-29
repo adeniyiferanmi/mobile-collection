@@ -88,7 +88,9 @@ onAuthStateChanged(auth, async (user) => {
         const cartColRef = collection(userColRef,currentuser,"carts")
         const docSnapShot = await getDocs(cartColRef)
         docSnapShot.forEach((docs) => {
-          item =  docs.data()
+          console.log(docs.data());
+          
+         let item =  docs.data()
           array.push({
             itemName : item.name,
             itemPrice:item.price,
@@ -111,7 +113,7 @@ onAuthStateChanged(auth, async (user) => {
           alert("payment not successful")
         } else {
           window.location.href="../html/open.html"
-        }
+        }return
         
       } catch (error) {
         console.log(error);
@@ -120,7 +122,8 @@ onAuthStateChanged(auth, async (user) => {
       finally{
         bTn.textContent = "Pay"
         bTn.disabled = true
-        alert("Payment successful")  
+        alert("Payment successful") 
+        // Window.location.href="../html/open.html" 
       }
       
     }
