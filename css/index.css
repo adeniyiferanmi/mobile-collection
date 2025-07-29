@@ -1,7 +1,8 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
 }
 header {
   width: 100%;
@@ -14,16 +15,16 @@ header {
   z-index: 5;
 }
 .container1 {
-  width: 90%;
   margin: auto;
   display: flex;
+  width: 90%;
   justify-content: space-between;
 }
 .logo {
   width: 280px;
 }
-.logo h1 {
-  font-size: 4rem;
+  .logo h1 {
+    font-size: 4rem;
   font-family: "Manufacturing Consent", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -181,7 +182,10 @@ header {
   margin: auto;
   position: relative;
 }
-
+.cetion{
+  height: 600px;
+  width: 600px;
+}
 .slid {
   position: absolute;
   right: 0;
