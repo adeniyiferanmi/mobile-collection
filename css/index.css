@@ -184,7 +184,7 @@ header {
 }
 .cetion{
   height: 600px;
-  width: 600px;
+  /* width: 600px; */
   object-fit: cover;
 }
 .slid {
@@ -329,7 +329,7 @@ transform: translatex(-1%);
 
 @media (max-width: 450px) {
   .container1 {
-    width: 100%;
+    width: 95%;
   }
   .btnn button {
     width: 80px;

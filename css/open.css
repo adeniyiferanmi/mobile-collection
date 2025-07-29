@@ -207,7 +207,7 @@ header {
     }
     .image img{
         width: 400px;
-    }
+    }\
 }
 
 @media (max-width: 900px) {
