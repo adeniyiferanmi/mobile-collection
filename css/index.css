@@ -185,6 +185,7 @@ header {
 .cetion{
   height: 600px;
   width: 600px;
+  object-fit: cover;
 }
 .slid {
   position: absolute;
